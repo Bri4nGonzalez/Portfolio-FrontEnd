@@ -1,0 +1,9 @@
+.img-fluid{
+    height: 350px;
+    width: 100%;
+}
+div.card img{
+    display: flex;
+    z-index: 0;
+
+}

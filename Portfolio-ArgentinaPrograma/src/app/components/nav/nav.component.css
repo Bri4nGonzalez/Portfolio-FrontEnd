@@ -1,0 +1,57 @@
+
+.navbar{
+    margin-bottom: 0;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+.img-logo{
+    margin-top: -1px;
+}
+
+.logo p{
+    color: white;
+    margin-bottom: 0px;
+    font-size: 12px;
+}
+
+.social img{
+    width: 25px;
+    margin-right: 10px;
+}
+
+.btn{
+ font-size: 12px;
+ margin-right: 10px;
+}
+
+
+/*vista mobile */
+@media (max-width: 575px){
+    .container{
+        flex-direction: column;
+    }
+    
+    
+    .social{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .social img{
+        margin-bottom: 10px;
+    }
+    .btn{
+     margin-bottom: 10px;   
+    }
+}
+  

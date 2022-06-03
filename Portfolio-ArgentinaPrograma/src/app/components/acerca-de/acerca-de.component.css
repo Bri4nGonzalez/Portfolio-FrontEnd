@@ -1,0 +1,62 @@
+
+.mat-card {
+    /*border-radius: 32px;*/
+    /*margin: 20px 10px;*/
+    padding: 20px;
+    /*border-color: #0a66c2;*/
+  }
+  
+.mat-card#first-card {
+    padding: 0;
+  }
+  
+  /*estilo del fondo background*/
+div#profile-background img {
+    display: flex;
+    z-index: 0;
+  }
+  
+div#profile-background img {
+    width: 100%;
+    height: 20em;
+    /*border-radius: 32px 32px 0 0;*/
+  }
+ 
+  
+  /*Estilos del icono de perfil*/
+#info-image{
+    display: flex;
+  }
+
+   
+
+  
+.profile-image {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;   
+    margin-top: -100px;
+    z-index: 1;
+  }
+
+@media (min-width: 589px){
+  .info-name h1{
+    font-size: 25px;
+  }
+}
+  
+  
+  
+  /*Estilos del informacion*/
+
+  
+#info-contact p {
+      margin: 0px;
+  }
+  
+  /*Seccion de acerca de mi*/
+.card-titles{
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+}

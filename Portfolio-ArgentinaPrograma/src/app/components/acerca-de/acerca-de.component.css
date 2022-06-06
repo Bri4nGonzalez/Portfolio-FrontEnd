@@ -1,16 +1,14 @@
 
 .mat-card {
-    /*border-radius: 32px;*/
-    /*margin: 20px 10px;*/
+ 
     padding: 20px;
-    /*border-color: #0a66c2;*/
   }
   
 .mat-card#first-card {
     padding: 0;
   }
   
-  /*estilo del fondo background*/
+/*----------------------------------------------------------Estilo del fondo background----------------------------------------------------------------------------*/
 div#profile-background img {
     display: flex;
     z-index: 0;
@@ -19,18 +17,15 @@ div#profile-background img {
 div#profile-background img {
     width: 100%;
     height: 20em;
-    /*border-radius: 32px 32px 0 0;*/
+    
   }
  
   
-  /*Estilos del icono de perfil*/
+/*---------------------------------------------------------Estilos de foto de perfil------------------------------------------------------------------------------*/
 #info-image{
     display: flex;
   }
 
-   
-
-  
 .profile-image {
     border-radius: 50%;
     width: 120px;
@@ -45,18 +40,14 @@ div#profile-background img {
   }
 }
   
-  
-  
-  /*Estilos del informacion*/
-
-  
 #info-contact p {
       margin: 0px;
   }
   
-  /*Seccion de acerca de mi*/
+/*--------------------------------------------------------------------Seccion de acerca de mi------------------------------------------------------------------------*/
 .card-titles{
       display: flex;
       justify-content: space-between;
       align-items: flex-start;
 }
+

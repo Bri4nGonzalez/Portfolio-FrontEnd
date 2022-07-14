@@ -1,0 +1,15 @@
+
+.card-hero{
+    margin: 20px 25px 0px 25px;
+    
+}
+
+div#profile-background img {
+    display: flex;
+    z-index: 0;
+  }
+  
+div#profile-background img {
+    width: 1380;
+    height: 350px;  
+}

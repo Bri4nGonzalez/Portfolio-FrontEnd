@@ -1,7 +1,8 @@
 
 .mat-card {
     padding: 20px;
-  }
+    margin: 0px 25px 0px 25px;
+}
   
 .mat-card#first-card {
     padding: 0px;
@@ -19,7 +20,6 @@ div#profile-background img {
     
   }
  
-  
 /*---------------------------------------------------------Estilos de foto de perfil------------------------------------------------------------------------------*/
 #info-image{
     display: flex;
@@ -31,9 +31,17 @@ div#profile-background img {
     height: 120px;   
     margin-top: -100px;
     z-index: 1;
+    border: 2px solid black;
   }
 
-@media (min-width: 589px){
+.info-name h1{
+  font-size: 30px;
+}
+
+@media (max-width: 589px){
+  .mat-card {
+    margin: 0px 10px 0px 10px;
+  }
   .info-name h1{
     font-size: 25px;
   }

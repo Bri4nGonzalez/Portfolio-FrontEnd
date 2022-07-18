@@ -1,0 +1,30 @@
+.card{
+    margin: 0px 25px;
+    
+}
+
+.contenedor-exp-edu{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.img-exp-edu{
+    max-width: 150px;
+    max-height: 150px;
+    
+    margin: 20px;
+    padding: 10px;
+}
+
+@media (max-width: 578px) { 
+    .card{
+        margin: 10px 0px;
+    }
+    .contenedor-exp-edu{
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+ }
+/* @media (min-widht:) {
+    
+} */

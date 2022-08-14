@@ -31,7 +31,7 @@ div#profile-background img {
     height: 120px;   
     margin-top: -100px;
     z-index: 1;
-    border: 2px solid black;
+    
   }
 
 .info-name h1{
@@ -56,5 +56,10 @@ div#profile-background img {
       display: flex;
       justify-content: space-between;
       align-items: flex-start;
+}
+
+#text-acercade{
+  font-size: 14px;
+  text-align: center;
 }
 

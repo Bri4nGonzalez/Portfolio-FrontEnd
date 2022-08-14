@@ -2,31 +2,33 @@
     margin: 0px 25px;
     
 }
+.card-text{
+    font-size: 14px;
+}
 
-.contenedor-exp-edu{
+.contenedor-proyecto{
     display: flex;
     flex-wrap: nowrap;
 }
 
-.img-exp-edu{
+.img-proyecto{
     max-width: 150px;
     max-height: 150px;
+    
     margin: 20px;
     padding: 10px;
 }
 
-.card-text{
-    font-size: 14px;
+.btn{
+    margin: 10px;
 }
+
 @media (max-width: 578px) { 
     .card{
         margin: 10px 0px;
     }
-    .contenedor-exp-edu{
+    .contenedor-proyecto{
         flex-wrap: nowrap;
         flex-direction: column;
     }
  }
-/* @media (min-widht:) {
-    
-} */
